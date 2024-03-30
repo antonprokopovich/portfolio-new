@@ -85,8 +85,8 @@ content:
           (Golang)
         caption: 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          Working on developing Managed Kubernetes platform used by all development teams in Sber - the largest bank in Russia (~300 000 employees as of 2024).
-          I'm also responsible for interviewing and mentoring new software engineers, as well as leading a team of 3 software engineers.
+          Developing a Managed Kubernetes platform used by all development teams in Sber - the largest bank in Russia (~300 000 employees as of 2024).
+          I'm also responsible for interviewing, and mentoring new team members, as well as leading a team of 3 software engineers.
       - layout: left
         title: Bitsgap
         link: www.bitsgap.com
@@ -112,7 +112,7 @@ content:
       - layout: left
         title: Presbyterian College 
         caption: 2016 - 2016 (Global UGRAD Program Scholarship)
-        sub_title: BSc Buniess Administration
+        sub_title: BSc Business Administration
 #        quote: >
 #          I became a winner of a Global UGRAD scholarship program and went to study to the Presbyterian College for a semester.
         description: | # this will include new lines to allow paragraphs
@@ -124,7 +124,9 @@ content:
 #        quote: >
 #          Got a bachelor's degree in Human Resources Management. After second year I started spending all my spare time studying mathematics and programming. Fun fact: my thesis title was "Use of Information Technologies in the Recruitment Process: A Case Study of Sberbank" and 5 years later I work as a software engineer in Sberbank Tech department and participate in recruiting new people to our team :).
         description: | # this will include new lines to allow paragraphs
-          Got a bachelor's degree in Human Resources Management. After second year I started spending all my spare time studying mathematics and programming. Fun fact: my thesis title was "Use of Information Technologies in the Recruitment Process: A Case Study of Sberbank" and 5 years later I work as a software engineer in Sberbank Tech department and participate in recruiting new people to our team :)
+          Got a bachelor's degree in Human Resources Management. After second year I started spending all my spare time studying mathematics and programming. 
+          
+          Fun fact: my thesis title was "Use of Information Technologies in the Recruitment Process: A Case Study of Sberbank" and 5 years later I work in Sberbank Tech department and responsible for recruiting new people to our team :)
 
   - title: Other
     layout: text
