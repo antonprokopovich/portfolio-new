@@ -49,8 +49,10 @@ linkedin_username: "anton-prokopovich-500744141"
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I'm a software engineer with experience in robotics, backend, and infrastructure development.
-
-#  Key skills: <mark>Golang</mark>, <mark>Python</mark>, <mark>Kubernetes</mark>, <mark>Software Architecture</mark>.
+  
+  Technologies and skills that I have the most exepience with:
+  
+  <mark>Golang</mark>, <mark>Python</mark>, <mark>PostgreSQL</mark>, <mark>gRPC</mark>, <mark>Kubernetes</mark>, <mark>Kafka</mark>,  <mark>Linux</mark>, <mark>Software Architecture</mark>, <mark>Automated testing</mark>.
 
 content:
   - title: Experience # Title for the section
