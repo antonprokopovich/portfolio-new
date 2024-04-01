@@ -65,7 +65,7 @@ content:
           (Golang)
         caption: 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          We're develping a Managed Kubernetes platform used by all development teams at Sber - the largest bank in Russia (~300,000 employees as of 2024).
+          We're developing a Managed Kubernetes platform used by all development teams at Sber - the largest bank in Russia (~300,000 employees as of 2024).
           I'm also responsible for interviewing and mentoring new team members, as well as leading a sub-team of 3 software engineers.
       - layout: left
         title: Bitsgap
@@ -97,6 +97,10 @@ content:
 #          I became a winner of a Global UGRAD scholarship program and went to study to the Presbyterian College for a semester.
         description: | # this will include new lines to allow paragraphs
           I became a finalist of the Global UGRAD scholarship program and went to study to the Presbyterian College for a semester.
+          I scored 97 on my TOEFL exam, which was a part of the Global UGRAD scholarship selection process.
+          
+          In addition to my business major curriculum at Presbyterian College, I took logic and mathematics courses as electives.
+
       - layout: left
         title: Russian State University for the Humanities
         caption: 2014 - 2018
