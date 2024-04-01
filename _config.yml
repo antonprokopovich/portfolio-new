@@ -48,7 +48,7 @@ linkedin_username: "anton-prokopovich-500744141"
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a software engineer with experience in robotics, backend and infrastructure development.
+  I'm a software engineer with experience in robotics, backend, and infrastructure development.
 
 #  Key skills: <mark>Golang</mark>, <mark>Python</mark>, <mark>Kubernetes</mark>, <mark>Software Architecture</mark>.
 
@@ -65,7 +65,7 @@ content:
           (Golang)
         caption: 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          Developing a Managed Kubernetes platform used by all development teams in Sber - the largest bank in Russia (~300 000 employees as of 2024).
+          We're develping a Managed Kubernetes platform used by all development teams at Sber - the largest bank in Russia (~300,000 employees as of 2024).
           I'm also responsible for interviewing and mentoring new team members, as well as leading a sub-team of 3 software engineers.
       - layout: left
         title: Bitsgap
@@ -74,7 +74,7 @@ content:
         sub_title: "Software Engineer\n(Golang)"
         caption: 2022 - 2022
         description: | # this will include new lines to allow paragraphs
-          Worked on cryptocurrency trading bot that implemented DCA trading strategy.
+          During my time at Bitsgap I worked on cryptocurrency trading bot that implemented DCA trading strategy.
       - layout: left
         title: Zyfra Robotics
         link: www.zyfra.com/industries/robotics
@@ -84,7 +84,7 @@ content:
 #        quote: >
 #          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Worked on automating vehicles (trucks, drilling rigs) in mining industry. I was responsible for the development of the software that controlled the drilling rig robots and the infrastructure that supported them.
+            There I worked on automating vehicles (trucks, drilling rigs) in mining industry. I was responsible for the development of the software that controlled the drilling rig robots and the infrastructure that supported them.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -96,7 +96,7 @@ content:
 #        quote: >
 #          I became a winner of a Global UGRAD scholarship program and went to study to the Presbyterian College for a semester.
         description: | # this will include new lines to allow paragraphs
-          I had became a finalist of the Global UGRAD scholarship program and went to study to the Presbyterian College for a semester.
+          I became a finalist of the Global UGRAD scholarship program and went to study to the Presbyterian College for a semester.
       - layout: left
         title: Russian State University for the Humanities
         caption: 2014 - 2018
@@ -104,9 +104,9 @@ content:
 #        quote: >
 #          Got a bachelor's degree in Human Resources Management. After second year I started spending all my spare time studying mathematics and programming. Fun fact: my thesis title was "Use of Information Technologies in the Recruitment Process: A Case Study of Sberbank" and 5 years later I work as a software engineer in Sberbank Tech department and participate in recruiting new people to our team :).
         description: | # this will include new lines to allow paragraphs
-          Got a bachelor's degree in Human Resources Management. After the second year I started spending all my spare time studying mathematics and programming. 
+          I recieved a bachelor's degree in Human Resources Management. After the second year I started spending all my spare time studying mathematics and programming. 
           
-          Fun fact: my thesis title was "Use of Information Technologies in the Recruitment Process: A Case Study of Sberbank" and 5 years later I work in Sberbank Tech department and responsible for recruiting new developers to our team :)
+          Fun fact: my thesis title was "Use of Information Technologies in the Recruitment Process: A Case Study of Sberbank" and 5 years later I work in Sberbank Tech department and am responsible for recruiting new developers to our team :)
 
   - title: Personal projects # Title for the section
     sub_title: Few of the pet-projects I've worked on in my spare time.
@@ -133,7 +133,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       Besides software engineering and computer science some of my other interests are:
       - Machine Learning and AI.
-      - Neuroscience. I enjoy learning about how human brain works on fundamental level.
+      - Neuroscience. I enjoy learning about how human brain functions at a fundamental level.
       - Reading. I read a lot of both technical and fiction literature. Planning to add my reading list on here, stay tuned :)
       - Health and Fitness. I played basketball for 10 years in my youth. I enjoy weightlifting and learning/practicing anything related to becoming stronger and healthiers.
 
