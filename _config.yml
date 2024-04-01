@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   Technologies and skills that I have the most exepience with:
   
-  <mark>Golang</mark>, <mark>Python</mark>, <mark>PostgreSQL</mark>, <mark>gRPC</mark>, <mark>Kubernetes</mark>, <mark>Kafka</mark>,  <mark>Linux</mark>, <mark>Software Architecture</mark>, <mark>Automated Testing</mark>.
+  <mark>Golang</mark>, <mark>Python</mark>, <mark>gRPC</mark>, <mark>PostgreSQL</mark>, <mark>MongoDB</mark>, <mark>Kubernetes</mark>, <mark>Kafka</mark>,  <mark>Linux</mark>, <mark>Software Architecture</mark>, <mark>Automated Testing</mark>.
 
 content:
   - title: Experience # Title for the section
