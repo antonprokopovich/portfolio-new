@@ -67,6 +67,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           We're developing a Managed Kubernetes platform used by all development teams at Sber - the largest bank in Russia (~300,000 employees as of 2024).
           I'm also responsible for interviewing and mentoring new team members, as well as leading a sub-team of 3 software engineers.
+          
+          I'm also a member of the Sber Golang Experts Team (~20 people).
       - layout: left
         title: Bitsgap
         link: www.bitsgap.com
@@ -75,6 +77,9 @@ content:
         caption: 2022 - 2022
         description: | # this will include new lines to allow paragraphs
           During my time at Bitsgap I worked on cryptocurrency trading bot that implemented DCA trading strategy.
+          
+          Besides implementing new features and improving performance, I also refactored the backend architecture and
+          imptroduced the automated testing practices to the project.
       - layout: left
         title: Zyfra Robotics
         link: www.zyfra.com/industries/robotics
@@ -84,7 +89,12 @@ content:
 #        quote: >
 #          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            There I worked on automating vehicles (trucks, drilling rigs) in mining industry. I was responsible for the development of the software that controlled the drilling rig robots and the infrastructure that supported them.
+            There I worked on automating vehicles (trucks, drilling rigs) in mining industry. 
+          
+            I was responsible for the development of the software that controlled the (drilling rig robots)[https://www.youtube.com/watch?v=KnGj2X02N1Q&ab_channel=Zyfra] and the infrastructure that supported them.
+            I also developed a system that allowed the drilling rigs to be controlled remotely from a graphical interface. And also worked on 3D similator of the drilling rig which we later used for testing the main system.
+          
+            The automonous drilling rig was deployed on mines in Russia and Peru.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
