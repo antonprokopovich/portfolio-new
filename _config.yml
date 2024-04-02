@@ -68,6 +68,7 @@ content:
         caption: 2022 - Present
         description: | # this will include new lines to allow paragraphs
           We're developing a Managed Kubernetes platform used by all development teams at Sber - the largest bank in Russia (~300,000 employees as of 2024).
+          
           I'm also responsible for interviewing and mentoring new team members, as well as leading a sub-team of 3 software engineers developing Managed Namespaces service.
           
           On top of that, I'm a member of the Sber Golang Experts Team (~20 people).
