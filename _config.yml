@@ -68,15 +68,15 @@ content:
         caption: 2022 - Present
         description: | # this will include new lines to allow paragraphs
           We're developing a Managed Kubernetes platform used by all development teams at Sber - the largest bank in Russia (~300,000 employees as of 2024).
-          I'm also responsible for interviewing and mentoring new team members, as well as leading a sub-team of 3 software engineers.
+          I'm also responsible for interviewing and mentoring new team members, as well as leading a sub-team of 3 software engineers developing Managed Namespaces service.
           
-          I'm also a member of the Sber Golang Experts Team (~20 people).
+          On top of that, I'm a member of the Sber Golang Experts Team (~20 people).
       - layout: left
         title: Bitsgap
         link: www.bitsgap.com
         link_text: bitsgap.com
         sub_title: "Software Engineer\n(Golang)"
-        caption: 2022 - 2022
+        caption: 2022
         description: | # this will include new lines to allow paragraphs
           During my time at Bitsgap I worked on cryptocurrency trading bot that implemented DCA trading strategy.
           
@@ -94,7 +94,12 @@ content:
             There I worked on automating vehicles (trucks, drilling rigs) in mining industry. 
           
             I was responsible for the development of the software that controlled the [drilling rig robots](https://www.youtube.com/watch?v=KnGj2X02N1Q&ab_channel=Zyfra) and the infrastructure that supported them.
-            I also developed a system that allowed the drilling rigs to be controlled remotely from a graphical interface. And also worked on 3D similator of the drilling rig which we later used for testing the main system.
+            
+            Besides the controll software I developed the backend that communicated with all robotic-vehicles on the mine, gathered telemetry from them, sent them tasks. The backend also provided REST API for sending "plans" of tasks to robots and (through Web interface) and observe their current state.
+          
+            I also developed a desktop app that allowed the drilling rigs to be controlled remotely using remote-controll desk built by our engineers.
+          
+            I worked on a 3D similator of the drilling rig which we later used for testing the main system.
           
             The automonous drilling rig was deployed on mines in Russia and Peru.
 
