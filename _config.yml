@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I'm a software engineer with experience in robotics, backend, and infrastructure development.
   
-  Technologies and skills that I have the most exepience with:
+  Technologies and skills that I have the most experience with:
   
   <mark>Golang</mark>, <mark>Python</mark>, <mark>gRPC</mark>, <mark>PostgreSQL</mark>, <mark>MongoDB</mark>, <mark>Kubernetes</mark>, <mark>Kafka</mark>,  <mark>Linux</mark>, <mark>Software Architecture</mark>, <mark>Automated Testing</mark>.
 
@@ -81,7 +81,7 @@ content:
           During my time at Bitsgap I worked on cryptocurrency trading bot that implemented DCA trading strategy.
           
           Besides implementing new features and improving performance, I also refactored the backend architecture and
-          imptroduced the automated testing practices to the project.
+          introduced the automated testing practices to the project.
       - layout: left
         title: Zyfra Robotics
         link: www.zyfra.com/industries/robotics
