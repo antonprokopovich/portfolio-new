@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I'm a software engineer with experience in robotics, backend, and infrastructure development.
   
-  Technologies and skills that I have the most experience with: <mark>Golang</mark>, <mark>Python</mark>, <mark>gRPC</mark>, <mark>PostgreSQL</mark>, <mark>MongoDB</mark>, <mark>Kubernetes</mark>, <mark>Kafka</mark>,  <mark>Linux</mark>,  <mark>OpenTelemetry</mark>, <mark>Software Architecture</mark>, <mark>Automated Testing</mark>.
+  Technologies and skills that I have the most experience with: <mark>Golang</mark>, <mark>Python</mark>, <mark>gRPC</mark>, <mark>PostgreSQL</mark>, <mark>MongoDB</mark>, <mark>Kubernetes</mark>, <mark>Kafka</mark>,  <mark>Linux</mark>,  <mark>OpenTelemetry</mark>, <mark>Software Architecture</mark>, <mark>Automated Testing</mark> and <mark>TDD</mark>.
 
 content:
   - title: Experience # Title for the section
@@ -125,7 +125,7 @@ content:
 #        quote: >
 #          Got a bachelor's degree in Human Resources Management. After second year I started spending all my spare time studying mathematics and programming. Fun fact: my thesis title was "Use of Information Technologies in the Recruitment Process: A Case Study of Sberbank" and 5 years later I work as a software engineer in Sberbank Tech department and participate in recruiting new people to our team :).
         description: | # this will include new lines to allow paragraphs
-          I recieved a bachelor's degree in Human Resources Management. After the second year I started spending all my spare time studying mathematics and programming. 
+          I recieved a bachelor's degree in Human Resources Management. After the second year I started spending all my spare time studying mathematics, programming and machine learning. 
           
           Fun fact: my thesis title was "Use of Information Technologies in the Recruitment Process: A Case Study of Sberbank" and 5 years later I work in Sberbank Tech department and am responsible for recruiting new developers to our team :)
 
@@ -141,13 +141,8 @@ content:
           - title: antonprokopovich/go-threads
             icon: fab fa-github
             url: github.com/antonprokopovich/go-threads
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        #        quote: >
-        #          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I've reversed engineered API for Threads.net the first days it came out and created a Golang wrapper for it.
+          I've reverse-engineered API for Threads.net the first days it came out and created a Golang wrapper for it.
 
   - title: Other
     layout: text
