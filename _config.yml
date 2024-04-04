@@ -77,7 +77,7 @@ content:
         sub_title: "Software Engineer\n(Golang)"
         caption: 2022
         description: | # this will include new lines to allow paragraphs
-          During my time at Bitsgap I worked on cryptocurrency trading bot that implemented DCA trading strategy.
+          During my time at Bitsgap I worked on a cryptocurrency trading bot that implemented DCA trading strategy.
           
           Besides implementing new features and improving performance, I also refactored the backend architecture and
           introduced the automated testing practices to the project.
@@ -94,7 +94,7 @@ content:
           
             I was responsible for the development of the software that controlled the [drilling rig robots](https://www.youtube.com/watch?v=KnGj2X02N1Q&ab_channel=Zyfra) and the infrastructure that supported them.
             
-            Besides the controll software I developed the backend that communicated with all robotic-vehicles on the mine, gathered telemetry from them, sent them tasks. The backend also provided REST API for sending "plans" of tasks to robots and (through Web interface) and observe their current state.
+            Besides the controll software I developed the backend that communicated with all robotic-vehicles on the mine, gathered telemetry from them, sent them tasks. The backend also provided REST API for sending plans of tasks to robots (through a Web interface) and observe their current state.
           
             I also developed a desktop app that allowed the drilling rigs to be controlled remotely using remote-controll desk built by our engineers.
           
