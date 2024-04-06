@@ -9,10 +9,9 @@ version: 2
 name: Anton Prokopovich
 title: Senior Software Engineer
 email: 96anton96@mail.ru
-#website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 #twitter_username: facespics
@@ -87,8 +86,6 @@ content:
         link_text: zyfra.com
         sub_title: "Software Engineer\n(Python, Robotics)"
         caption: 2019 - 2022
-#        quote: >
-#          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             There I worked on automating vehicles (trucks, drilling rigs) in mining industry. 
           
@@ -109,8 +106,6 @@ content:
         title: Presbyterian College 
         caption: 2016 - 2016 (Global UGRAD Program Scholarship)
         sub_title: BSc Business Administration
-#        quote: >
-#          I became a winner of a Global UGRAD scholarship program and went to study to the Presbyterian College for a semester.
         description: | # this will include new lines to allow paragraphs
           I became a finalist of the Global UGRAD scholarship program and went to study to the Presbyterian College for a semester.
           
@@ -122,8 +117,6 @@ content:
         title: Russian State University for the Humanities
         caption: 2014 - 2018
         sub_title: BSc Human Resources Management
-#        quote: >
-#          Got a bachelor's degree in Human Resources Management. After second year I started spending all my spare time studying mathematics and programming. Fun fact: my thesis title was "Use of Information Technologies in the Recruitment Process: A Case Study of Sberbank" and 5 years later I work as a software engineer in Sberbank Tech department and participate in recruiting new people to our team :).
         description: | # this will include new lines to allow paragraphs
           I recieved a bachelor's degree in Human Resources Management. After the second year I started spending all my spare time studying mathematics, programming and machine learning. 
           
@@ -154,7 +147,7 @@ content:
       - Health and Fitness. I played basketball for 10 years in my youth. I enjoy weightlifting and learning/practicing anything related to becoming stronger and healthiers.
 
 # Footer
-footer_show_references: false
+#footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
