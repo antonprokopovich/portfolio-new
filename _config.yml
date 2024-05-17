@@ -47,7 +47,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           We're developing a Managed Kubernetes platform used by all development teams at Sber - the largest bank in Russia (~300,000 employees as of 2024).
           
-          I'm also responsible for interviewing and mentoring new team members, as well as leading a sub-team of 3 software engineers developing Managed Namespaces service.
+          The Managed Kubernetes platform consists of multitude of microservices. The majority of those microservices are various k8s-controllers and componets that implement integrations with other services of the Cloud platform.
+          
+          Besides the development work I'm also responsible for interviewing and mentoring new team members, as well as leading a sub-team of 3 software engineers developing Managed Namespaces service.
           
           On top of that, I'm a member of the Sber Golang Experts Team (~20 people).
       - layout: left
@@ -74,7 +76,7 @@ content:
             
             Besides the controll software I developed the backend that communicated with all robotic vehicles on the mine, gathered telemetry from them, sent them tasks. The backend also provided REST API for sending plans of tasks to robots (through a Web interface) and observing their current state.
           
-            I also developed an app that allowed the drilling rigs to be controlled remotely using the remote-controll desk built by our engineers.
+            I also developed an desktop app that allowed the drilling rigs to be controlled remotely using the remote-controll station built by our engineers.
           
             I worked on a 3D-simulator of the drilling rig which we later used for testing the main system.
           
