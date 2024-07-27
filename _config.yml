@@ -49,7 +49,7 @@ content:
           
           The Managed Kubernetes platform consists of multitude of microservices. The majority of those microservices are various k8s-controllers and componets that implement integrations with other services of the Cloud platform.
           
-          Besides the development work I'm also responsible for interviewing and mentoring new team members, as well as leading a sub-team of 3 software engineers developing Managed Namespaces service.
+          Besides the development work I'm also responsible for interviewing and mentoring new team members, as well as leading a sub-team of 4 software engineers.
           
           On top of that, I'm a member of the Sber Golang Experts Team (~20 people).
       - layout: left
