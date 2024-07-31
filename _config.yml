@@ -49,7 +49,7 @@ content:
           
           The Managed Kubernetes platform consists of multitude of microservices. The majority of those microservices are various k8s-controllers and componets that implement integrations with other services of the Cloud platform.
           
-          Besides the development work I'm also responsible for interviewing Golang developers in multiple teams, as well as leading a team of 4 software engineers.
+          Besides the development work I'm also responsible for interviewing Golang developers in multiple teams. I'm also leading a team of 4 software engineers.
           
           On top of that, I'm a member of the Sber Golang Experts Team (~20 people).
       - layout: left
@@ -76,7 +76,7 @@ content:
             
             Besides the controll software I developed the backend that communicated with all robotic vehicles on the mine, gathered telemetry from them, sent them tasks. The backend also provided REST API for sending plans of tasks to robots (through a Web interface) and observing their current state.
           
-            I also developed an desktop app that allowed the drilling rigs to be controlled remotely using the remote-controll station built by our engineers.
+            I also developed a desktop app that allowed the drilling rigs to be controlled remotely using the remote-controll station built by our engineers.
           
             I worked on a 3D-simulator of the drilling rig which we later used for testing the main system.
           
@@ -127,7 +127,7 @@ content:
       - Machine Learning and AI.
       - Neuroscience. I enjoy learning about how human brain functions at a fundamental level.
       - Reading. I read a lot of both technical and fiction literature. Planning to add my reading list on here, stay tuned :)
-      - Health and Fitness. I played basketball for 10 years in my youth. I enjoy weightlifting and learning/practicing anything related to becoming stronger and healthier.
+      - Health and Fitness. I played basketball for 10 years in my youth and was a member of Russian U16 National Team. I enjoy weightlifting and learning/practicing anything related to becoming stronger and healthier.
 
 # Footer
 #footer_show_references: false
