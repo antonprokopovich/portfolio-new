@@ -129,8 +129,8 @@ content:
       sub_title: Some of the commendation certificates I received in recognition of my work.
       layout: text
       content:
-        - ![alt text](/images/2024_high_performance.jpeg "Commendation for high performance at work in 2024")
-        - ![alt text](/images/school_21_go.jpeg "Commendation for high quality conduction of Golang interviews for programming school graduates")
+          Image: ![alt text](/images/2024_high_performance.jpeg "Commendation for high performance at work in 2024")
+#          Second: ![alt text](/images/school_21_go.jpeg "Commendation for high quality conduction of Golang interviews for programming school graduates")
 
   - title: Other
     layout: text
