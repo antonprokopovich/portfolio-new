@@ -125,6 +125,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           I've reverse-engineered API for Threads.net the first days it came out and created a Golang wrapper for it.
 
+  - title: Honors & Recognitions
+      sub_title: Some of the commendation certificates I received in recognition of my work.
+      layout: text
+      content:
+        - ![alt text](/images/2024_high_performance.jpeg "Commendation for high performance at work in 2024")
+        - ![alt text](/images/school_21_go.jpeg "Commendation for high quality conduction of Golang interviews for programming school graduates")
+
   - title: Other
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -133,13 +140,6 @@ content:
       - Neuroscience. I enjoy learning about how human brain functions at a fundamental level.
       - Reading. I read a lot of both technical and fiction literature. Planning to add my reading list on here, stay tuned :)
       - Health and Fitness. I played basketball for 10 years in my youth and was a member of Russian U16 National Team. I enjoy weightlifting and learning/practicing anything related to becoming stronger and healthier.
-
-  - title: Honors & Recognitions
-    sub_title: Some of the commendation certificates I received in recognition of my work.
-    layout: text
-    content:
-      - Images ![alt text](/images/2024_high_performance.jpeg "Commendation for high performance at work in 2024")
-      - Images ![alt text](/images/school_21_go.jpeg "Commendation for high quality conduction of Golang interviews for programming school graduates")
 
 # Footer
 #footer_show_references: false
