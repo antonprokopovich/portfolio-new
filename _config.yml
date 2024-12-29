@@ -127,21 +127,20 @@ content:
 
   - title: Honors & Recognitions
     sub_title: Some of the commendation certificates I received in recognition of my work.
-    layout: list
-    content:
-      - layout: right
-        sub_title: Commendation for high performance at work in 2024
-        caption: 2024
-        content: |
-          
-          <img src="/images/2024_high_performance.jpeg" width="285" height="394">
-
-      - layout: right
-        sub_title: Commendation for conducting high-quality Golang interviews for programming school graduates.
-        caption: 2024
-        content: |
-          
-          <img src="/images/school_21_go.png" width="285" height="394">
+    layout: text
+    content: |
+      *Commendation for high performance at work*
+      
+      Year: 2024
+      
+      <img src="/images/2024_high_performance.jpeg" width="285" height="394">
+      
+      *Commendation for high quality conduction of \
+      Golang interviews for programming school graduates*
+      
+      Year: 2024
+      
+      <img src="/images/school_21_go.png" width="285" height="394">
 
   - title: Other
     layout: text
