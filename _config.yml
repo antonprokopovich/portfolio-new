@@ -129,13 +129,13 @@ content:
     sub_title: Some of the commendation certificates I received in recognition of my work.
     layout: list
     content:
-      - layout: left
+      - layout: top
         sub_title: Commendation for high performance at work in 2024
         caption: 2024
         content: |
           <img src="/images/2024_high_performance.jpeg" width="285" height="394">
 
-      - layout: left
+      - layout: top
         sub_title: Commendation for conducting high-quality Golang interviews for programming school graduates.
         caption: 2024
         content: |
