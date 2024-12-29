@@ -127,7 +127,7 @@ content:
 
   - title: Honors & Recognitions
     sub_title: Some of the commendation certificates I received in recognition of my work.
-    layout: text
+    layout: list
     content:
       - layout: left
         sub_title: Commendation for high performance at work in 2024
