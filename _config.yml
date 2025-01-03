@@ -127,7 +127,7 @@ content:
 
   - title: Honors & Recognitions
     sub_title: Some of the commendation certificates I received in recognition of my work.
-    layout: left
+    layout: text
     content: |
       **Commendation from Sber Tech Department**
       
