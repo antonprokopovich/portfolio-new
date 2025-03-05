@@ -124,10 +124,9 @@ content:
             url: github.com/antonprokopovich/go-threads
         description: | # this will include new lines to allow paragraphs
           I've reverse-engineered API for Threads.net the first days it came out and created a Golang wrapper for it.
-
       - layout: left
         title: Two-Layer Feed-forward Neural Network
-        link: https://github.com/antonprokopovich/NeuralNet
+        link: github.com/antonprokopovich/NeuralNet
         # link_text: Project Website
         additional_links:
           - title: antonprokopovich/NeuralNet
