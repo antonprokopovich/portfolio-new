@@ -135,7 +135,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Two-layer feed-forward neural network that solves a classic problem of handwritten digits classification. Implemented from scratch in pure Python (numpy being the only third-party dependency).
 
-- title: Honors & Recognitions
+  - title: Honors & Recognitions
     sub_title: Some of the commendation certificates I received in recognition of my work.
     layout: text
     content: |
