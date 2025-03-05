@@ -114,7 +114,7 @@ content:
     sub_title: Few of the pet-projects I've worked on in my spare time.
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Threads.net API wrapper in Golang
         link: github.com/antonprokopovich/go-threads
         # link_text: Project Website
@@ -125,7 +125,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           I've reverse-engineered API for Threads.net the first days it came out and created a Golang wrapper for it.
 
-      - layout: top-middle
+      - layout: left
         title: Two-Layer Feed-forward Neural Network
         link: https://github.com/antonprokopovich/NeuralNet
         # link_text: Project Website
