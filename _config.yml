@@ -47,7 +47,7 @@ content:
         description: | # this will include new lines to allow paragraphs          
           **Managed Machine Learning Platform**
           
-          The platform atomates provides functionality to simplify and optimize the following stages of working with ML models:
+          The platform provides functionality to simplify and optimize the following stages of working with ML models:
           - Preparing and allocating the resources and infrastructure for running ML models.
           - Deploying models in distributed kubernetes clusters.
           - Running inference on deployed models.
