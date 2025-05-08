@@ -44,9 +44,7 @@ content:
           Lead Software Engineer
           (Golang)
         caption: 2022 - Present
-        description: | # this will include new lines to allow paragraphs
-          #### Projects
-          
+        description: | # this will include new lines to allow paragraphs          
           **Managed ML Platform**
           
           The platform atomates provides functionality to simplify and optimize the following stages of working with Machine Learning models:
