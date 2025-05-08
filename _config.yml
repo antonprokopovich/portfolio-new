@@ -45,9 +45,9 @@ content:
           (Golang)
         caption: 2022 - Present
         description: | # this will include new lines to allow paragraphs          
-          **Managed ML Platform**
+          **Managed Machine Learning Platform**
           
-          The platform atomates provides functionality to simplify and optimize the following stages of working with Machine Learning models:
+          The platform atomates provides functionality to simplify and optimize the following stages of working with ML models:
           - Preparing and allocating the resources and infrastructure for running ML models.
           - Deploying models in distributed kubernetes clusters.
           - Running inference on deployed models.
