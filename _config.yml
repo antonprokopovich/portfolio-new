@@ -45,10 +45,24 @@ content:
           (Golang)
         caption: 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          We're developing a Managed Kubernetes platform used by all development teams at Sber - the largest bank in Russia (~300,000 employees as of 2024).
+          *Projects*
           
-          The Managed Kubernetes platform consists of multitude of microservices. The majority of those microservices are various k8s-controllers and componets that implement integrations with other services of the Cloud platform.
+          *Managed ML Platform*
+          The platform atomates provides functionality to simplify and optimize the following stages of working with Machine Learning models:
+          - Preparing and allocating the resources and infrastructure for running ML models.
+          - Deploying models in distributed kubernetes clusters.
+          - Running inference on deployed models.
+          - Building inference graphs.
+          - Collecting and displaying metrics, logs and traces of deployed models.
           
+          *Managed Kubernetes Namespaces*
+          A platform that allows users to manage namespaces in kubernetes clusters. The managed namespaces are also used to implement the communal (shared) kubernetes clusters which helps to better utilize clusters' compute resources. 
+          
+          *Managed Kubernetes Platform*
+          The Managed Kubernetes platform is used by all development teams at Sber - the largest bank in Russia (~300,000 employees as of 2024).
+          The platform consists of multitude of microservices. The majority of those microservices are various k8s-controllers and componets that implement integrations with other services of the Cloud platform.
+          
+          *Other*
           I'm leading a team of 4 software engineers. So besides the development work I'm also responsible for translating business goals and requirements into technical tasks, assigning those tasks to the team members, doing code reviews and testing, preparing releases, designing systems architecture and removing blockers for the team.
           
           I'm also responsible for interviewing Golang developers in multiple teams and departments. 
