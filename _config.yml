@@ -97,27 +97,28 @@ content:
         sub_title: "Software Engineer\n(Python, Robotics)"
         caption: 2018 - 2022
         description: | # this will include new lines to allow paragraphs
-            In Zyfra Robotics I worked on automating vehicles (trucks, drilling rigs) in the mining industry. 
           
-            #### Key projects
+          #### Key projects
           
-            <ins>Drilling Rig Robot Controll Software</ins>
+          At Zyfra Robotics I worked on automating vehicles (trucks, drilling rigs) in the mining industry. Despite it being my first job I ended up as the main developer on the following project because I was the only developer on a team of two – just me and my team lead/architect.           
           
-            I was responsible for the development of the software that controlled the [drilling rig robots](https://www.youtube.com/watch?v=B3JCit_YW5U&ab_channel=ZyfraCompany) and the infrastructure that supported them. The controll software development involved a lot mathematics (geometry, probability, linear argebra) and control theory (PID regulators, Path-Finding Algorithms, Kalman Filters).
+          <ins>Drilling Rig Robot Controll Software</ins>
           
-            <ins>Planning and Observability Backend</ins>
-          
-            Besides the controll software I developed the backend that communicated with all robotic vehicles on the mine, gathered telemetry from them, sent them tasks. The backend also provided REST API for sending plans of tasks to robots (through a Web interface) and observing their current state.
-          
-            <ins>Remote Controll Station Desktop App</ins>
-          
-            I also developed a desktop app that allowed the drilling rigs to be controlled remotely using the remote-controll station built by our engineers.
-          
-            <ins>3D Simulator</ins>
-          
-            I worked on a 3D-simulator of the drilling rig which we later used for testing the main system.
-          
-            The automonous drilling rig was deployed on mines in Russia and Peru.
+          I was responsible for the development of the software that controlled the [drilling rig robots](https://www.youtube.com/watch?v=B3JCit_YW5U&ab_channel=ZyfraCompany) and the infrastructure that supported them. The controll software development involved a lot mathematics (geometry, probability, linear argebra) and control theory (PID regulators, Path-Finding Algorithms, Kalman Filters).
+        
+          <ins>Planning and Observability Backend</ins>
+        
+          Besides the controll software I developed the backend that communicated with all robotic vehicles on the mine, gathered telemetry from them, sent them tasks. The backend also provided REST API for sending plans of tasks to robots (through a Web interface) and observing their current state.
+        
+          <ins>Remote Controll Station Desktop App</ins>
+        
+          I also developed a desktop app that allowed the drilling rigs to be controlled remotely using the remote-controll station built by our engineers.
+        
+          <ins>3D Simulator</ins>
+        
+          I worked on a 3D-simulator of the drilling rig which we later used for testing the main system.
+        
+          The automonous drilling rig was deployed on mines in Russia and Peru.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
