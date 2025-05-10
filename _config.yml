@@ -45,7 +45,7 @@ content:
           (Golang)
         caption: 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          - **Key projects**
+          ###### Key projects
             - **Managed Machine Learning Platform**
           
               The platform provides functionality to simplify and optimize the following stages of working with ML models:
@@ -64,15 +64,15 @@ content:
             
               A platform that allows users to manage namespaces in kubernetes clusters. The managed namespaces are also used to implement the communal (shared) kubernetes clusters which helps to better utilize clusters' compute resources. 
               
-          - **Additional roles**
+          ###### Additional roles**
           
-          I'm leading a team of 4 software engineers. So besides the development work I'm also responsible for translating business goals and requirements into technical tasks, assigning those tasks to the team members, doing code reviews and testing, preparing releases, designing systems architecture and removing blockers for the team.
-          
-          I'm also responsible for interviewing Golang developers in multiple teams and departments. 
-                    
-          On top of that, I'm a member of the Sber Golang Experts Team (~20 people). The Experts Team is responsible for actively improving and developing Golang-related tools and processes in the company.
-          
-          In 2024 I received a commendation from the department for high performance at work.
+            I'm leading a team of 4 software engineers. So besides the development work I'm also responsible for translating business goals and requirements into technical tasks, assigning those tasks to the team members, doing code reviews and testing, preparing releases, designing systems architecture and removing blockers for the team.
+            
+            I'm also responsible for interviewing Golang developers in multiple teams and departments. 
+                      
+            On top of that, I'm a member of the Sber Golang Experts Team (~20 people). The Experts Team is responsible for actively improving and developing Golang-related tools and processes in the company.
+            
+            In 2024 I received a commendation from the department for high performance at work.
 
       - layout: left
         title: Bitsgap
