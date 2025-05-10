@@ -44,26 +44,28 @@ content:
           Lead Software Engineer
           (Golang)
         caption: 2022 - Present
-        description: | # this will include new lines to allow paragraphs          
-          **Managed Machine Learning Platform**
+        description: | # this will include new lines to allow paragraphs
+          **Key projects**
           
-          The platform provides functionality to simplify and optimize the following stages of working with ML models:
-          - Preparing and allocating the resources and infrastructure for running ML models.
-          - Deploying models in distributed kubernetes clusters.
-          - Running inference on deployed models.
-          - Building inference graphs.
-          - Collecting and displaying metrics, logs and traces of deployed models.
-          
-          **Managed Kubernetes Platform**
-          
-          The Managed Kubernetes platform is used by all development teams at Sber - the largest bank in Russia (~300,000 employees as of 2024).
-          The platform consists of multitude of microservices. The majority of those microservices are various k8s-controllers and componets that implement integrations with other services of the Cloud platform.
-          
-          **Managed Namespaces**
-          
-          A platform that allows users to manage namespaces in kubernetes clusters. The managed namespaces are also used to implement the communal (shared) kubernetes clusters which helps to better utilize clusters' compute resources. 
-          
-          **Other**
+              **Managed Machine Learning Platform**
+              
+              The platform provides functionality to simplify and optimize the following stages of working with ML models:
+              - Preparing and allocating the resources and infrastructure for running ML models.
+              - Deploying models in distributed kubernetes clusters.
+              - Running inference on deployed models.
+              - Building inference graphs.
+              - Collecting and displaying metrics, logs and traces of deployed models.
+              
+              **Managed Kubernetes Platform**
+              
+              The Managed Kubernetes platform is used by all development teams at Sber - the largest bank in Russia (~300,000 employees as of 2024).
+              The platform consists of multitude of microservices. The majority of those microservices are various k8s-controllers and componets that implement integrations with other services of the Cloud platform.
+              
+              **Managed Namespaces**
+              
+              A platform that allows users to manage namespaces in kubernetes clusters. The managed namespaces are also used to implement the communal (shared) kubernetes clusters which helps to better utilize clusters' compute resources. 
+              
+          **Additional roles**
           
           I'm leading a team of 4 software engineers. So besides the development work I'm also responsible for translating business goals and requirements into technical tasks, assigning those tasks to the team members, doing code reviews and testing, preparing releases, designing systems architecture and removing blockers for the team.
           
@@ -80,12 +82,13 @@ content:
         sub_title: "Software Engineer\n(Golang)"
         caption: 2022
         description: | # this will include new lines to allow paragraphs
-          **DCA Trading Bot Backend**
-          
-          During my time at Bitsgap I worked on a cryptocurrency trading bot that implemented DCA trading strategy.
-          
-          Besides implementing new features and improving performance, I also refactored the backend architecture and
-          introduced the automated testing practices to the project.
+          **Key projects**
+              **DCA Trading Bot Backend**
+              
+              During my time at Bitsgap I worked on a cryptocurrency trading bot that implemented DCA trading strategy.
+              
+              Besides implementing new features and improving performance, I also refactored the backend architecture and
+              introduced the automated testing practices to the project.
       - layout: left
         title: Zyfra Robotics
         link: www.zyfra.com/industries/robotics
@@ -93,25 +96,27 @@ content:
         sub_title: "Software Engineer\n(Python, Robotics)"
         caption: 2018 - 2022
         description: | # this will include new lines to allow paragraphs
-            There I worked on automating vehicles (trucks, drilling rigs) in the mining industry. I developed the following projects:
+            There I worked on automating vehicles (trucks, drilling rigs) in the mining industry. 
           
-            **Drilling Rig Robot Controll Software**
+          **Key projects**
           
-            I was responsible for the development of the software that controlled the [drilling rig robots](https://www.youtube.com/watch?v=B3JCit_YW5U&ab_channel=ZyfraCompany) and the infrastructure that supported them. The controll software development involved a lot mathematics (geometry, probability, linear argebra) and control theory (PID regulators, Path-Finding Algorithms, Kalman Filters).
+              **Drilling Rig Robot Controll Software**
             
-            **Planning and Observability Backend**
-          
-            Besides the controll software I developed the backend that communicated with all robotic vehicles on the mine, gathered telemetry from them, sent them tasks. The backend also provided REST API for sending plans of tasks to robots (through a Web interface) and observing their current state.
-          
-            **Remote Controll Station Desktop App**
-          
-            I also developed a desktop app that allowed the drilling rigs to be controlled remotely using the remote-controll station built by our engineers.
-          
-            **3D Simulator**
-          
-            I worked on a 3D-simulator of the drilling rig which we later used for testing the main system.
-          
-            The automonous drilling rig was deployed on mines in Russia and Peru.
+              I was responsible for the development of the software that controlled the [drilling rig robots](https://www.youtube.com/watch?v=B3JCit_YW5U&ab_channel=ZyfraCompany) and the infrastructure that supported them. The controll software development involved a lot mathematics (geometry, probability, linear argebra) and control theory (PID regulators, Path-Finding Algorithms, Kalman Filters).
+              
+              **Planning and Observability Backend**
+            
+              Besides the controll software I developed the backend that communicated with all robotic vehicles on the mine, gathered telemetry from them, sent them tasks. The backend also provided REST API for sending plans of tasks to robots (through a Web interface) and observing their current state.
+            
+              **Remote Controll Station Desktop App**
+            
+              I also developed a desktop app that allowed the drilling rigs to be controlled remotely using the remote-controll station built by our engineers.
+            
+              **3D Simulator**
+            
+              I worked on a 3D-simulator of the drilling rig which we later used for testing the main system.
+            
+              The automonous drilling rig was deployed on mines in Russia and Peru.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
