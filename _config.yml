@@ -30,7 +30,7 @@ about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I'm a software engineer with experience in robotics, backend, and infrastructure development.
   
-  Technologies and skills that I have the most experience with: <mark>Golang</mark>, <mark>Python</mark>, <mark>gRPC</mark>, <mark>PostgreSQL</mark>, <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>Kubernetes</mark>, <mark>MLOps</mark>, <mark>ML Engineering</mark>, <mark>Kafka</mark>, <mark>RabbitMQ</mark>, <mark>ZeroMQ</mark>,  <mark>Linux</mark>,  <mark>ROS Framework</mark>, <mark>OpenTelemetry</mark>, <mark>Gitlab CI</mark>, <mark>Software Architecture</mark>, <mark>TDD</mark>.
+  Technologies and skills that I have the most experience with: <mark>Golang</mark>, <mark>Python</mark>, Python Data Science stack (<mark>sci-kit learn</mark>, <mark>scipy</mark>, <mark>numpy</mark>, <mark>matplotlib</mark>, <mark>pandas</mark>), <mark>gRPC</mark>, <mark>PostgreSQL</mark>, <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>Kubernetes</mark>, <mark>MLOps</mark>, <mark>Kafka</mark>, <mark>RabbitMQ</mark>, <mark>ZeroMQ</mark>,  <mark>Linux</mark>,  <mark>ROS Framework</mark>, <mark>OpenTelemetry</mark>, <mark>Gitlab CI</mark>, <mark>Software Architecture</mark>, <mark>TDD</mark>.
 
 content:
   - title: Experience # Title for the section
@@ -80,6 +80,8 @@ content:
         sub_title: "Software Engineer\n(Golang)"
         caption: 2022
         description: | # this will include new lines to allow paragraphs
+          **DCA Trading Bot Backend**
+          
           During my time at Bitsgap I worked on a cryptocurrency trading bot that implemented DCA trading strategy.
           
           Besides implementing new features and improving performance, I also refactored the backend architecture and
@@ -91,13 +93,21 @@ content:
         sub_title: "Software Engineer\n(Python, Robotics)"
         caption: 2018 - 2022
         description: | # this will include new lines to allow paragraphs
-            There I worked on automating vehicles (trucks, drilling rigs) in the mining industry. 
+            There I worked on automating vehicles (trucks, drilling rigs) in the mining industry. I developed the following projects:
+          
+            **Drilling Rig Robot Controll Software**
           
             I was responsible for the development of the software that controlled the [drilling rig robots](https://www.youtube.com/watch?v=KnGj2X02N1Q&ab_channel=Zyfra) and the infrastructure that supported them. The controll software development involved a lot mathematics (geometry, probability, linear argebra) and control theory (PID regulators, Path-Finding Algorithms, Kalman Filters).
             
+            **Planning and Observability Backend**
+          
             Besides the controll software I developed the backend that communicated with all robotic vehicles on the mine, gathered telemetry from them, sent them tasks. The backend also provided REST API for sending plans of tasks to robots (through a Web interface) and observing their current state.
           
+            **Remote Controll Station Desktop App**
+          
             I also developed a desktop app that allowed the drilling rigs to be controlled remotely using the remote-controll station built by our engineers.
+          
+            **3D simulator**
           
             I worked on a 3D-simulator of the drilling rig which we later used for testing the main system.
           
