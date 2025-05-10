@@ -46,6 +46,7 @@ content:
         caption: 2022 - Present
         description: | # this will include new lines to allow paragraphs
           <ins>**Key projects**</ins>
+          
           **Managed Machine Learning Platform**
         
             The platform provides functionality to simplify and optimize the following stages of working with ML models:
@@ -81,7 +82,8 @@ content:
         sub_title: "Software Engineer\n(Golang)"
         caption: 2022
         description: | # this will include new lines to allow paragraphs
-          #### Key projects
+          <ins>**Key projects**</ins>
+          
           **DCA Trading Bot Backend**
           
           During my time at Bitsgap I worked on a cryptocurrency trading bot that implemented DCA trading strategy.
@@ -97,7 +99,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             There I worked on automating vehicles (trucks, drilling rigs) in the mining industry. 
           
-            #### Key projects
+            <ins>**Key projects**</ins>
             
             **Drilling Rig Robot Controll Software**
           
