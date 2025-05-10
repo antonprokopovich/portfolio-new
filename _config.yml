@@ -82,9 +82,9 @@ content:
         sub_title: "Software Engineer\n(Golang)"
         caption: 2022
         description: | # this will include new lines to allow paragraphs
-          <ins>**Key projects**</ins>
+          #### Key projects
           
-          **DCA Trading Bot Backend**
+          <ins>DCA Trading Bot Backend</ins>
           
           During my time at Bitsgap I worked on a cryptocurrency trading bot that implemented DCA trading strategy.
           
