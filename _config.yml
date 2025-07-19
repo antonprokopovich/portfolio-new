@@ -15,8 +15,8 @@ darkmode: never
 
 # Social links
 github_username:  "antonprokopovich"
-facebook_username: "anton.prokopovich.3"
 linkedin_username: "anton-prokopovich-500744141"
+facebook_username: "anton.prokopovich.3"
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -30,7 +30,7 @@ about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I'm a software engineer with experience in robotics, backend, and infrastructure development.
   
-  Technologies and skills that I have the most experience with: <mark>Golang</mark>, <mark>Python</mark>, Python data science stack ( <mark>sci-kit learn</mark>, <mark>scipy</mark>, <mark>numpy</mark>, <mark>matplotlib</mark>, <mark>pandas</mark> ), <mark>gRPC</mark>, <mark>PostgreSQL</mark>, <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>RabbitMQ</mark>, <mark>ZeroMQ</mark>,  <mark>Linux</mark>,  <mark>ROS Framework</mark>, <mark>OpenTelemetry</mark>, <mark>Gitlab CI</mark>, <mark>MLOps</mark>, <mark>Software Architecture</mark>, <mark>TDD</mark>.
+  Technologies and skills that I have the most experience with: <mark>Golang</mark>, <mark>Python</mark>, Python data science stack [ <mark>sci-kit learn</mark>, <mark>scipy</mark>, <mark>numpy</mark>, <mark>matplotlib</mark>, <mark>pandas</mark> ], <mark>gRPC</mark>, <mark>PostgreSQL</mark>, <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>RabbitMQ</mark>, <mark>ZeroMQ</mark>,  <mark>Linux</mark>,  <mark>ROS Framework</mark>, <mark>OpenTelemetry</mark>, <mark>Gitlab CI</mark>, <mark>Software Architecture</mark>, <mark>TDD</mark>.
 
 content:
   - title: Experience # Title for the section
@@ -71,9 +71,7 @@ content:
             
             I'm also responsible for interviewing Golang developers in multiple teams and departments. 
                       
-            On top of that, I'm a member of the Sber Golang Experts Team (~20 people). The Experts Team is responsible for actively improving and developing Golang-related tools and processes in the company.
-            
-            In 2024 I received a commendation from the department for high performance at work.
+            On top of that, I'm a member of the Sber Golang Experts Team (~20 people). The team is responsible for actively improving and developing Golang-related tools and processes in the company.
 
       - layout: left
         title: Bitsgap
@@ -144,7 +142,7 @@ content:
           Fun fact: my thesis title was "The Use of Information Technologies in the Recruitment Process: A Case Study of Sberbank" and 5 years later I work in Sberbank Tech department and am responsible for recruiting new developers to our team :)
 
   - title: Personal projects # Title for the section
-    sub_title: Few of the pet-projects I've worked on in my spare time.
+    sub_title: Some of the pet-projects I've worked on in my spare time.
     layout: list # Type of content section (list/text)
     content:
       - layout: left
