@@ -58,8 +58,8 @@ content:
           
           <ins>Managed Kubernetes Platform</ins>
           
-            The Managed Kubernetes platform is used by all development teams at Sber - the largest bank in Russia (~300,000 employees as of 2024).
-            The platform consists of multitude of microservices. The majority of those microservices are various k8s-controllers and componets that implement integrations with other services of the Cloud platform.
+            The Managed Kubernetes platform is used by majority of development teams at Sber - the largest bank in Russia (~300,000 employees as of 2024).
+            The platform consists of multitude of microservices. The majority of those microservices are various k8s-controllers, backends and componets that implement integrations with other services of the Cloud platform.
           
           <ins>Managed Namespaces</ins>
           
