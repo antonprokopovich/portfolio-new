@@ -47,11 +47,11 @@ content:
         description: | # this will include new lines to allow paragraphs
           #### Key projects 
           
-          <ins>Managed Machine Learning Platform</ins>
+          <ins>Managed ML Inference Platform</ins>
         
-            The platform provides functionality to simplify and optimize the following stages of working with ML models:
-            - Preparing and allocating the resources and infrastructure for running ML models.
-            - Deploying models in distributed Kubernetes clusters.
+            The platform provides functionality to simplify and optimize the following stages of working with Machine Learning models:
+            - Preparing and allocating the resources (GPU/CPU/RAM) and infrastructure for running ML models.
+            - Deploying and scaling models in distributed Kubernetes clusters.
             - Building model ensembles.
             - Running inference on deployed models.
             - Collecting and displaying metrics, logs and traces of deployed models.
