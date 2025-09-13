@@ -37,7 +37,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Sber
+        title: Sber.Infra
         link: www.sberbank.com
         link_text: sberbank.com
         sub_title: |
