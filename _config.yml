@@ -126,9 +126,9 @@ content:
         caption: 2016 - 2016 (Global UGRAD Program Scholarship)
         sub_title: BSc Business Administration
         description: | # this will include new lines to allow paragraphs
-          I became a finalist of the Global UGRAD scholarship program and went to study to the Presbyterian College for a semester.
+          I became a finalist of the [Global UGRAD](https://exchanges.state.gov/non-us/program/global-undergraduate-exchange-program-global-ugrad) scholarship program and went to study to the [Presbyterian College](https://en.wikipedia.org/wiki/Presbyterian_College) for a semester.
           
-          I scored 97 on my TOEFL exam which was a part of the Global UGRAD scholarship selection process.
+          I [scored 97](images/TOEFL_iBT.pdf) on my TOEFL exam which was a part of the Global UGRAD scholarship selection process.
           
           In addition to my business major curriculum at Presbyterian College, I took logic courses as electives.
 
@@ -137,7 +137,7 @@ content:
         caption: 2014 - 2018
         sub_title: BSc Human Resources Management
         description: | # this will include new lines to allow paragraphs
-          I recieved a bachelor's degree in Human Resources Management. After the second year I started spending all my spare time studying mathematics, programming and machine learning. 
+          I recieved a bachelor's degree in Human Resources Management. After the second year I started spending all my spare time studying [machine learning](https://www.coursera.org/account/accomplishments/verify/GTQWZ73D3DY3), [mathematics and programming](https://www.coursera.org/account/accomplishments/verify/9Y5YCFV9HV97). 
 
   - title: Personal projects # Title for the section
     sub_title: Some of the pet-projects I've worked on in my spare time.
