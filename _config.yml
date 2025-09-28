@@ -137,7 +137,7 @@ content:
         caption: 2014 - 2018
         sub_title: BSc Human Resources Management
         description: | # this will include new lines to allow paragraphs
-          I recieved a bachelor's degree in Human Resources Management. After the second year I started spending all my spare time studying [machine learning](https://www.coursera.org/account/accomplishments/verify/GTQWZ73D3DY3), [mathematics and programming](https://www.coursera.org/account/accomplishments/verify/9Y5YCFV9HV97). 
+          I recieved a bachelor's degree in Human Resources Management. After the second year I started spending all my spare time studying [machine learning](images/mipt_yandex_ml_supervised.pdf), [mathematics and programming](images/mipt_yandex_math.pdf). 
 
   - title: Personal projects # Title for the section
     sub_title: Some of the pet-projects I've worked on in my spare time.
