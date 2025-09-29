@@ -164,6 +164,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           Two-layer feed-forward neural network that solves a classic problem of handwritten digits classification. Implemented from scratch in pure Python (numpy being the only third-party dependency).
 
+  - title: Minor open source contributions
+    sub_title: I've made some _minor_ contributions to some projects in the open-source community.
+    layout: text
+    content: |
+      1. Found [an issue](https://github.com/metal-stack/go-ipam/issues/112) in a Golang IP-management library and [added a unit test](https://github.com/metal-stack/go-ipam/pull/113/files) to reproduce it.
+      2. Found [an issue(https://github.com/jackc/pgx/issues/1470) with type casting in the Golang Postgres driver library pgx/v5 which was [reproduced and fixed](https://github.com/jackc/pgx/commit/e48e7a7189354fd7d2990b8abc2c40dfe5ee4c9f) by the library author. 
+
   - title: Honors & Recognitions
     sub_title: Some of the commendation certificates I received in recognition of my work.
     layout: text
