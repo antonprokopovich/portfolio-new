@@ -164,7 +164,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Two-layer feed-forward neural network that solves a classic problem of handwritten digits classification. Implemented from scratch in pure Python (numpy being the only third-party dependency).
 
-  - title: Minor open source contributions
+  - title: Open source contributions
     layout: text
     content: |
       I've made some _minor_ contributions to some projects in the open-source community:
