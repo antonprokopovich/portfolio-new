@@ -144,16 +144,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Threads.net API wrapper in Golang
-        link: github.com/antonprokopovich/go-threads
-        # link_text: Project Website
-        additional_links:
-          - title: antonprokopovich/go-threads
-            icon: fab fa-github
-            url: github.com/antonprokopovich/go-threads
-        description: | # this will include new lines to allow paragraphs
-          I've reverse-engineered API for Threads.net the first days it came out and created a Golang wrapper for it.
-      - layout: left
         title: Two-Layer Feedforward Neural Network
         link: github.com/antonprokopovich/NeuralNet
         # link_text: Project Website
@@ -163,6 +153,16 @@ content:
             url: github.com/antonprokopovich/NeuralNet
         description: | # this will include new lines to allow paragraphs
           Two-layer feed-forward neural network that solves a classic problem of handwritten digits classification. Implemented from scratch in pure Python (numpy being the only third-party dependency).
+      - layout: left
+        title: Threads.net API wrapper in Golang
+        link: github.com/antonprokopovich/go-threads
+        # link_text: Project Website
+        additional_links:
+          - title: antonprokopovich/go-threads
+            icon: fab fa-github
+            url: github.com/antonprokopovich/go-threads
+        description: | # this will include new lines to allow paragraphs
+          I've reverse-engineered API for Threads.net the first days it came out and created a Golang wrapper for it.
 
   - title: Open source contributions
     layout: text
