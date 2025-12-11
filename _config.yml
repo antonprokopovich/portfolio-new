@@ -84,7 +84,7 @@ content:
           
           <ins>DCA Trading Bot Backend</ins>
           
-          During my time at Bitsgap I worked on a cryptocurrency trading bot that implemented DCA trading strategy.
+          During my time at Bitsgap I worked on a cryptocurrency trading bot that implemented [DCA](https://en.wikipedia.org/wiki/Dollar_cost_averaging) trading strategy.
           
           Besides implementing new features and improving performance, I also refactored the backend architecture and
           introduced the automated testing practices to the project.
