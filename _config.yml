@@ -171,33 +171,33 @@ content:
       - Found [an issue](https://github.com/metal-stack/go-ipam/issues/112) in a Golang IP-management library and [added a unit test](https://github.com/metal-stack/go-ipam/pull/113/files) to reproduce it.
       - Found [an issue](https://github.com/jackc/pgx/issues/1470) with type casting in the Golang Postgres driver library pgx/v5 which was [reproduced and fixed](https://github.com/jackc/pgx/commit/e48e7a7189354fd7d2990b8abc2c40dfe5ee4c9f) by the library author. 
 
-  - title: Honors & Recognitions
-    sub_title: Some of the commendation certificates I received in recognition of my work.
-    layout: text
-    content: |
-      **Commendation from Sber Tech Department**
-      
-      I received the commendation from the department for high performance and major contributations at work throughout the year 2024
-      
-      Year: 2024
-      
-      <img src="/images/2024_high_performance.jpeg" width="285" height="394">
-      
-      **Commendation from programming school ["School 21"](https://21-school.ru/)**
-      
-      I received the commendation for high quality conduction of Golang interviews for the school graduates
-      
-      Year: 2024
-      
-      <img src="/images/school_21_go.png" width="285" height="394">
-      
-      **Global UGRAD Scholarship**
-      
-      I became a finalist of the [Global UGRAD](https://exchanges.state.gov/non-us/program/global-undergraduate-exchange-program-global-ugrad) scholarship program and went to study to the [Presbyterian College](https://en.wikipedia.org/wiki/Presbyterian_College).
-      
-      Year: 2016
-      
-      <img src="/images/usa_embassy_letter.png" width="285" height="380" style="border: 1px solid grey;">
+#  - title: Honors & Recognitions
+#    sub_title: Some of the commendation certificates I received in recognition of my work.
+#    layout: text
+#    content: |
+#      **Commendation from Sber Tech Department**
+#
+#      I received the commendation from the department for high performance and major contributations at work throughout the year 2024
+#
+#      Year: 2024
+#
+#      <img src="/images/2024_high_performance.jpeg" width="285" height="394">
+#
+#      **Commendation from programming school ["School 21"](https://21-school.ru/)**
+#
+#      I received the commendation for high quality conduction of Golang interviews for the school graduates
+#
+#      Year: 2024
+#
+#      <img src="/images/school_21_go.png" width="285" height="394">
+#
+#      **Global UGRAD Scholarship**
+#
+#      I became a finalist of the [Global UGRAD](https://exchanges.state.gov/non-us/program/global-undergraduate-exchange-program-global-ugrad) scholarship program and went to study to the [Presbyterian College](https://en.wikipedia.org/wiki/Presbyterian_College).
+#
+#      Year: 2016
+#
+#      <img src="/images/usa_embassy_letter.png" width="285" height="380" style="border: 1px solid grey;">
 
   - title: Other
     layout: text
