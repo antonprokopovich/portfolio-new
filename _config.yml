@@ -47,7 +47,18 @@ content:
         description: | # this will include new lines to allow paragraphs
           #### Key projects 
           
-          <ins>Managed ML Inference Platform</ins>
+          The key projects I was/am involved in and the years of their release.
+          
+          <ins>Managed Kubernetes Platform (2023) </ins>
+          
+            The Managed Kubernetes platform is used by majority of development teams at Sber - the largest bank in Russia.
+            The platform consists of multitude of microservices. The majority of those microservices are various k8s-controllers, backends and componets that implement integrations with other services of the Cloud platform.
+          
+          <ins>Managed Namespaces (2024) </ins>
+          
+            A platform that allows users to manage namespaces in kubernetes clusters. The managed namespaces are also used to implement the communal (shared) kubernetes clusters which helps to better utilize clusters' compute resources. 
+
+          <ins>Managed ML Inference Platform (2025) </ins>
         
             The platform provides functionality to simplify and optimize the following stages of working with Machine Learning models:
             - Preparing and allocating the resources (GPU/CPU/RAM) and infrastructure for running ML models.
@@ -55,16 +66,7 @@ content:
             - Building model ensembles.
             - Running inference on deployed models.
             - Collecting and displaying metrics, logs and traces of deployed models.
-          
-          <ins>Managed Kubernetes Platform</ins>
-          
-            The Managed Kubernetes platform is used by majority of development teams at Sber - the largest bank in Russia.
-            The platform consists of multitude of microservices. The majority of those microservices are various k8s-controllers, backends and componets that implement integrations with other services of the Cloud platform.
-          
-          <ins>Managed Namespaces</ins>
-          
-            A platform that allows users to manage namespaces in kubernetes clusters. The managed namespaces are also used to implement the communal (shared) kubernetes clusters which helps to better utilize clusters' compute resources. 
-          
+
           #### Additional roles
           
             I'm leading a team of 4 software engineers. So besides the development work I'm also responsible for translating business goals and requirements into technical tasks, assigning those tasks to the team members, doing code reviews and testing, preparing releases, taking part in designing systems architecture and removing blockers for the team.
@@ -82,7 +84,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           #### Key projects
           
-          <ins>DCA Trading Bot Backend</ins>
+          <ins>DCA Trading Bot Backend (2022) </ins>
           
           During my time at Bitsgap I worked on a cryptocurrency trading bot that implemented [DCA](https://en.wikipedia.org/wiki/Dollar_cost_averaging) trading strategy.
           
@@ -100,19 +102,19 @@ content:
           
           At Zyfra Robotics I worked on automating vehicles (trucks, drilling rigs) in the mining industry. Despite it being my first software engineering job I ended up as the main developer on the following projects because I was the only developer on a team of two – just me and my team lead/architect.           
           
-          <ins>Drilling Rig Robot Controll Software</ins>
+          <ins>Drilling Rig Robot Controll Software (2019) </ins>
           
           I was responsible for the development of the software that controlled the [drilling rig robots](https://www.youtube.com/watch?v=B3JCit_YW5U&ab_channel=ZyfraCompany) and the infrastructure that supported them. The controll software development involved a lot mathematics (geometry, probability, linear argebra) and control theory (PID regulators, Path-Finding Algorithms, Kalman Filters).
-        
-          <ins>Planning and Observability Backend</ins>
+          
+          <ins>Remote Controll Station Desktop App (2020) </ins>
+          
+          A desktop app that allowed the drilling rigs to be controlled remotely using the remote-controll station built by our engineers.
+          
+          <ins>Planning and Observability Backend (2020)</ins>
         
           Besides the controll software I developed the backend that communicated with all robotic vehicles on the mine, gathered telemetry from them, sent them tasks. The backend also provided REST API for sending plans of tasks to robots (through a Web interface) and observing their current state.
         
-          <ins>Remote Controll Station Desktop App</ins>
-        
-          I also developed a desktop app that allowed the drilling rigs to be controlled remotely using the remote-controll station built by our engineers.
-        
-          <ins>3D Simulator</ins>
+          <ins>3D Simulator (2021) </ins>
         
           I worked on a 3D-simulator of the drilling rig which we later used for testing the main system.
         
