@@ -1,0 +1,249 @@
+---
+layout: default
+---
+
+{% comment %}
+  This layout adds language switching functionality to the default layout
+{% endcomment %}
+
+<!-- Language switcher and data attributes -->
+<div id="language-switcher">
+  <button id="lang-switch-btn" class="lang-switch-btn" onclick="toggleLanguageMenu()">
+    <span id="current-lang">EN</span>
+    <span class="arrow">▼</span>
+  </button>
+  <div id="lang-menu" class="lang-menu hidden">
+    <a href="#" class="lang-option active" data-lang="en" onclick="switchLanguage('en')">English</a>
+    <a href="#" class="lang-option" data-lang="ru" onclick="switchLanguage('ru')">Русский</a>
+  </div>
+</div>
+
+<!-- Data attributes for content -->
+<div id="lang-data" 
+     data-en-name="{{ site.name | escape_javascript }}"
+     data-ru-name="{{ site.name_ru | escape_javascript }}"
+     data-en-title="{{ site.title | escape_javascript }}"
+     data-ru-title="{{ site.title_ru | escape_javascript }}"
+     data-en-about-content="{% if site.about_content %}{{ site.about_content | strip_newlines | escape_once | replace: '"', '"' }}{% endif %}"
+     data-ru-about-content="{% if site.about_content_ru %}{{ site.about_content_ru | strip_newlines | escape_once | replace: '"', '"' }}{% endif %}"
+     data-en-sections='{% if site.content %}{{ site.content | jsonify }}{% else %}[]{% endif %}'
+     data-ru-sections='{% if site.content_ru %}{{ site.content_ru | jsonify }}{% else %}[]{% endif %}'
+     style="display: none;"></div>
+
+<script>
+  // Initialize language to English by default
+  let currentLang = localStorage.getItem('preferred-lang') || 'en';
+  
+  // Get content from data attributes
+  const langData = document.getElementById('lang-data');
+  const enName = langData.getAttribute('data-en-name');
+  const ruName = langData.getAttribute('data-ru-name');
+  const enTitle = langData.getAttribute('data-en-title');
+  const ruTitle = langData.getAttribute('data-ru-title');
+  const enAboutContent = langData.getAttribute('data-en-about-content');
+  const ruAboutContent = langData.getAttribute('data-ru-about-content');
+  const enSections = JSON.parse(langData.getAttribute('data-en-sections'));
+  const ruSections = JSON.parse(langData.getAttribute('data-ru-sections'));
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    updateLanguageDisplay();
+  });
+  
+  function toggleLanguageMenu() {
+    const menu = document.getElementById('lang-menu');
+    menu.classList.toggle('hidden');
+  }
+  
+  function switchLanguage(lang) {
+    currentLang = lang;
+    localStorage.setItem('preferred-lang', lang);
+    updateLanguageDisplay();
+    
+    // Close the menu after selection
+    document.getElementById('lang-menu').classList.add('hidden');
+  }
+  
+  function updateLanguageDisplay() {
+    // Update the button text
+    document.getElementById('current-lang').textContent = currentLang === 'en' ? 'EN' : 'RU';
+    
+    // Update active class on menu items
+    document.querySelectorAll('.lang-option').forEach(option => {
+      option.classList.remove('active');
+      if (option.dataset.lang === currentLang) {
+        option.classList.add('active');
+      }
+    });
+    
+    // Trigger content update
+    updateContentByLanguage();
+  }
+
+  function updateContentByLanguage() {
+    // This function will update content based on selected language
+    // We'll use data attributes to identify translatable content
+    
+    // Update personal info
+    if (window.location.pathname.endsWith('index.html') || window.location.pathname === '/') {
+      updatePersonalInfo();
+      updateAboutSection();
+      updateMainContent();
+    }
+  }
+  
+  function updatePersonalInfo() {
+    const nameElement = document.querySelector('.profile h1');
+    const titleElement = document.querySelector('.profile h2');
+    
+    if (nameElement) {
+      nameElement.textContent = currentLang === 'en' ? enName : ruName;
+    }
+    
+    if (titleElement) {
+      titleElement.textContent = currentLang === 'en' ? enTitle : ruTitle;
+    }
+  }
+  
+  function updateAboutSection() {
+    const aboutTitle = document.querySelector('.about .section-title');
+    const aboutContent = document.querySelector('.about .content-block');
+    
+    if (aboutTitle) {
+      const enAboutTitle = 'About Me';
+      const ruAboutTitle = 'Обо мне';
+      aboutTitle.textContent = currentLang === 'en' ? enAboutTitle : ruAboutTitle;
+    }
+    
+    if (aboutContent) {
+      aboutContent.innerHTML = currentLang === 'en' ? enAboutContent : ruAboutContent;
+    }
+  }
+  
+  function updateMainContent() {
+    // Get content sections from pre-defined variables
+    const sections = currentLang === 'en' ? enSections : ruSections;
+    
+    // Update all content sections
+    const sectionElements = document.querySelectorAll('.content-section');
+    sectionElements.forEach((sectionEl, index) => {
+      if (sections[index]) {
+        // Update section title
+        const titleEl = sectionEl.querySelector('.section-title');
+        if (titleEl) {
+          titleEl.textContent = sections[index].title;
+        }
+        
+        // Update content items
+        const contentItems = sectionEl.querySelectorAll('.content-item');
+        if (sections[index].content && contentItems.length > 0) {
+          sections[index].content.forEach((item, itemIndex) => {
+            if (contentItems[itemIndex]) {
+              updateContentItem(contentItems[itemIndex], item);
+            }
+          });
+        }
+      }
+    });
+  }
+  
+  function updateContentItem(itemElement, itemData) {
+    // Update title
+    const titleEl = itemElement.querySelector('h3');
+    if (titleEl && itemData.title) {
+      titleEl.textContent = itemData.title;
+    }
+    
+    // Update subtitle
+    const subtitleEl = itemElement.querySelector('.sub-title');
+    if (subtitleEl && itemData.sub_title) {
+      subtitleEl.innerHTML = itemData.sub_title.replace(/\n/g, '<br>');
+    }
+    
+    // Update caption
+    const captionEl = itemElement.querySelector('.caption');
+    if (captionEl && itemData.caption) {
+      captionEl.textContent = itemData.caption;
+    }
+    
+    // Update description
+    const descEl = itemElement.querySelector('.description');
+    if (descEl && itemData.description) {
+      descEl.innerHTML = itemData.description;
+    }
+  }
+  
+  // Close menu when clicking outside
+  document.addEventListener('click', function(event) {
+    const switchBtn = document.getElementById('lang-switch-btn');
+    const menu = document.getElementById('lang-menu');
+    
+    if (!switchBtn.contains(event.target)) {
+      menu.classList.add('hidden');
+    }
+  });
+</script>
+
+<style>
+  #language-switcher {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .lang-switch-btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .lang-switch-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .arrow {
+    font-size: 10px;
+  }
+  
+  .lang-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    min-width: 120px;
+    margin-top: 5px;
+  }
+  
+  .lang-menu.hidden {
+    display: none;
+  }
+  
+  .lang-option {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .lang-option:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .lang-option.active {
+    background-color: #007acc;
+    color: white;
+  }
+</style>
+
+{{ content }}
