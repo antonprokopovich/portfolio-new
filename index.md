@@ -7,5 +7,3 @@
 #
 layout: default_with_lang
 ---
-
-# Welcome to my portfolio
