@@ -10,6 +10,13 @@ name: Anton Prokopovich
 title: Software Engineer
 email: 96anton96@mail.ru
 
+# Russian personal info
+name_ru: Антон Прокопович
+title_ru: Software Engineer
+
+# Language settings
+lang_name: EN
+
 # Dark Mode (true/false/never)
 darkmode: never
 
@@ -29,8 +36,13 @@ google_analytics: "G-NBZVP671HE"
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I'm a software engineer with experience in robotics, backend, and infrastructure development.
-  
+
   Technologies and skills that I have the most experience with: <mark>Golang</mark>, <mark>Python</mark>, Python data science stack [ <mark>sci-kit learn</mark>, <mark>scipy</mark>, <mark>numpy</mark>, <mark>matplotlib</mark>, <mark>pandas</mark> ], <mark>gRPC</mark>, <mark>PostgreSQL</mark>, <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>RabbitMQ</mark>, <mark>ZeroMQ</mark>,  <mark>Linux</mark>,  <mark>ROS Framework</mark>, <mark>OpenTelemetry</mark>, <mark>Gitlab CI</mark>, <mark>Software Architecture</mark>, <mark>TDD</mark>, <mark>Probability Theory and Statistics</mark>.
+
+about_content_ru: |
+  Я software engineer с опытом в робототехнике, backend-разработке и инфраструктуре.
+
+  Технологии и навыки, с которыми у меня наибольший опыт: <mark>Golang</mark>, <mark>Python</mark>, стек Python для data science [ <mark>sci-kit learn</mark>, <mark>scipy</mark>, <mark>numpy</mark>, <mark>matplotlib</mark>, <mark>pandas</mark> ], <mark>gRPC</mark>, <mark>PostgreSQL</mark>, <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>RabbitMQ</mark>, <mark>ZeroMQ</mark>, <mark>Linux</mark>, <mark>ROS Framework</mark>, <mark>OpenTelemetry</mark>, <mark>Gitlab CI</mark>, <mark>Software Architecture</mark>, <mark>TDD</mark>, <mark>Теория вероятностей и статистика</mark>.
 
 content:
   - title: Experience # Title for the section
@@ -51,7 +63,7 @@ content:
           
           <ins>Managed Kubernetes Platform</ins> (2023)
           
-            The Managed Kubernetes platform is used by majority of development teams at Sber - the largest bank in Russia.
+            The Managed Kubernetes platform is used by majority of tech teams at Sber - the largest bank in Russia.
             The platform consists of multitude of microservices. The majority of those microservices are various k8s-controllers, backends and componets that implement integrations with other services of the Cloud platform.
           
           <ins>Managed Namespaces</ins>  (2024) 
@@ -118,7 +130,7 @@ content:
         
           I worked on a 3D-simulator of the drilling rig which we later used for testing the main system.
         
-          The automonous drilling rig was deployed on mines in Russia and Peru.
+          The automonous self-driving drilling rig was deployed on mines in Russia and Peru.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -173,38 +185,6 @@ content:
       - Found [an issue](https://github.com/metal-stack/go-ipam/issues/112) in a Golang IP-management library and [added a unit test](https://github.com/metal-stack/go-ipam/pull/113/files) to reproduce it.
       - Found [an issue](https://github.com/jackc/pgx/issues/1470) with type casting in the Golang Postgres driver library pgx/v5 which was [reproduced and fixed](https://github.com/jackc/pgx/commit/e48e7a7189354fd7d2990b8abc2c40dfe5ee4c9f) by the library author. 
 
-#  - title: Honors & Recognitions
-#    sub_title: Some of the commendation certificates I received in recognition of my work.
-#    layout: text
-#    content: |
-#      **Commendation from Sber Tech Department**
-#
-#      I received the commendations from the department for high performance and major contributions at work throughout the year 2024 and 2025
-#
-#      Year: 2025
-#
-#      <img src="/images/2025_high_performance.jpeg" width="285" height="394">
-#
-#      Year: 2024
-#
-#      <img src="/images/2024_high_performance.jpeg" width="285" height="394">
-#
-#      **Commendation from programming school ["School 21"](https://21-school.ru/)**
-#
-#      I received the commendation for high quality conduction of Golang interviews for the school graduates
-#
-#      Year: 2024
-#
-#      <img src="/images/school_21_go.png" width="285" height="394">
-#
-#      **Global UGRAD Scholarship**
-#
-#      I became a finalist of the [Global UGRAD](https://exchanges.state.gov/non-us/program/global-undergraduate-exchange-program-global-ugrad) scholarship program and went to study to the [Presbyterian College](https://en.wikipedia.org/wiki/Presbyterian_College).
-#
-#      Year: 2016
-#
-#      <img src="/images/usa_embassy_letter.png" width="285" height="380" style="border: 1px solid grey;">
-
   - title: Other
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -213,6 +193,155 @@ content:
       - Neuroscience. I enjoy learning about how human brain functions at a fundamental level.
       - Reading. In my spare time I read both technical and fiction literature. Planning to add my reading list on here.
       - Health and Fitness. I played basketball for 10 years in my youth and was a member of Russian U16 National Team. I enjoy weightlifting and learning/practicing anything related to becoming stronger and healthier.
+
+# Russian content
+content_ru:
+  - title: Опыт работы
+    layout: list
+    content:
+      - layout: left
+        title: Sber.Infra
+        link: www.sberbank.com
+        link_text: sberbank.com
+        sub_title: |
+          Software Engineer
+          (Golang)
+        caption: 2022 - настоящее время
+        description: |
+          #### Ключевые проекты
+
+          Ключевые проекты, в которых я участвовал, и годы их выпуска.
+
+          <ins>Managed Kubernetes Platform</ins> (2023)
+
+            Платформа Managed Kubernetes используется большинством технических команд Сбера — крупнейшего банка в России.
+            Платформа состоит из множества микросервисов. Большинство из них — различные k8s-контроллеры, бэкенды и компоненты, реализующие интеграции с другими сервисами облачной платформы.
+
+          <ins>Managed Namespaces</ins> (2024)
+
+            Платформа, позволяющая пользователям управлять пространствами имён (namespaces) в кластерах Kubernetes. Managed namespaces также используются для реализации коммунальных (общих) кластеров Kubernetes, что помогает лучше утилизировать вычислительные ресурсы кластеров.
+
+          <ins>Managed ML Inference Platform</ins> (2025)
+
+            Платформа предоставляет функциональность для упрощения и оптимизации следующих этапов работы с моделями машинного обучения:
+            - Подготовка и выделение ресурсов (GPU/CPU/RAM) и инфраструктуры для запуска ML-моделей.
+            - Деплой и масштабирование моделей в распределённых кластерах Kubernetes.
+            - Построение ансамблей моделей.
+            - Запуск инференса на развёрнутых моделях.
+            - Сбор и отображение метрик, логов и трейсов развёрнутых моделей.
+
+          #### Дополнительные роли
+
+            Начиная с 2024 года я руковожу подкомандами из 2-6 инженеров-разработчиков. Помимо разработки я также отвечаю за трансляцию бизнес-целей и требований в технические задачи, распределение задач между членами команды, код-ревью и тестирование, подготовку релизов, участие в проектировании архитектуры систем и устранение блокеров для команды.
+
+            Также я отвечаю за проведение собеседований разработчиков на Golang в нескольких командах и департаментах.
+
+            Кроме того, я являюсь членом команды экспертов Сбера по Golang (~20 человек). Команда отвечает за улучшение и развитие инструментов и процессов, связанных с Golang, по всей организации.
+
+      - layout: left
+        title: Bitsgap
+        link: www.bitsgap.com
+        link_text: bitsgap.com
+        sub_title: "Software Engineer\n(Golang)"
+        caption: 2022
+        description: |
+          #### Ключевые проекты
+
+          <ins>DCA Trading Bot Backend</ins> (2022)
+
+          В Bitsgap я работал над торговым ботом для криптовалют, реализующим стратегию [DCA](https://ru.wikipedia.org/wiki/%D0%A3%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80%D0%BE%D0%B2%D0%BE%D0%B9_%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8) (усреднение долларовой стоимости).
+
+          Помимо реализации новых функций и улучшения производительности, я провёл рефакторинг архитектуры бэкенда и внедрил практики автоматизированного тестирования в проект.
+
+      - layout: left
+        title: Zyfra Robotics
+        link: www.zyfra.com/industries/robotics
+        link_text: zyfra.com
+        sub_title: "Software Engineer\n(Python, Robotics)"
+        caption: 2018 - 2022
+        description: |
+
+          #### Ключевые проекты
+
+          В Zyfra Robotics я работал над автоматизацией транспортных средств (грузовиков, буровых установок) в горнодобывающей промышленности. Несмотря на то что это была моя первая работа в качестве разработчика, я стал основным разработчиком в следующих проектах, так как был единственным разработчиком в команде из двух человек — я и мой тимлид/архитектор.
+
+          <ins>ПО управления роботом буровой установки</ins> (2019)
+
+          Я отвечал за разработку программного обеспечения, управляющего [роботами буровых установок](https://www.youtube.com/watch?v=B3JCit_YW5U&ab_channel=ZyfraCompany), и поддерживающей их инфраструктуры. Разработка ПО управления включала много математики (геометрия, теория вероятностей, линейная алгебра) и теории управления (ПИД-регуляторы, алгоритмы поиска пути, фильтры Калмана).
+
+          <ins>Десктопное приложение станции дистанционного управления</ins> (2020)
+
+          Десктопное приложение, позволяющее управлять буровыми установками удалённо с помощью станции дистанционного управления, построенной нашими инженерами.
+
+          <ins>Бэкенд планирования и наблюдаемости</ins> (2020)
+
+          Помимо ПО управления, я разработал бэкенд, который взаимодействовал со всеми роботизированными транспортными средствами на шахте, собирал с них телеметрию, отправлял им задачи. Бэкенд также предоставлял REST API для отправки планов задач роботам (через веб-интерфейс) и наблюдения за их текущим состоянием.
+
+          <ins>3D-симулятор</ins> (2021)
+
+          Я работал над 3D-симулятором буровой установки, который мы затем использовали для тестирования основной системы.
+
+          Автономная самоуправляемая буровая установка была развёрнута на шахтах в России и Перу.
+
+  - title: Образование
+    layout: list
+    content:
+      - layout: left
+        title: Presbyterian College
+        caption: 2016 - 2016 (стипендия программы Global UGRAD)
+        sub_title: BSc Business Administration
+        description: |
+          Я стал финалистом стипендиальной программы [Global UGRAD](https://exchanges.state.gov/non-us/program/global-undergraduate-exchange-program-global-ugrad) и на один семестр отправился учиться в [Presbyterian College](https://en.wikipedia.org/wiki/Presbyterian_College).
+
+          Я [набрал 97 баллов](images/TOEFL_iBT.pdf) на экзамене TOEFL, который был частью отборочного процесса стипендии Global UGRAD.
+
+          В Presbyterian College помимо основной учебной программы по направелнию Business Administration , я выбрал курсы по логике в качестве факультативов.
+
+      - layout: left
+        title: Российский государственный гуманитарный университет
+        caption: 2014 - 2018
+        sub_title: Бакалавр, Управление персоналом
+        description: |
+          Я получил [диплом бакалавра](images/bachelors_degree.jpg) по направлению «Управление персоналом» в [РГГУ](https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B3%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D1%82%D0%B0%D1%80%D0%BD%D1%8B%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82). После второго курса я начал посвящать всё свободное время изучению [машинного обучения](images/mipt_yandex_ml_supervised.pdf), [математики и программирования](images/mipt_yandex_math.pdf).
+
+  - title: Личные проекты
+    sub_title: Некоторые pet-проекты, над которыми я работал в свободное время.
+    layout: list
+    content:
+      - layout: left
+        title: Двухслойная нейронная сеть прямого распространения
+        link: github.com/antonprokopovich/NeuralNet
+        additional_links:
+          - title: antonprokopovich/NeuralNet
+            icon: fab fa-github
+            url: github.com/antonprokopovich/NeuralNet
+        description: |
+          Двухслойная нейронная сеть прямого распространения, решающая классическую задачу классификации рукописных цифр. Реализована с нуля на чистом Python (numpy — единственная сторонняя зависимость).
+      - layout: left
+        title: Обёртка API Threads.net на Golang
+        link: github.com/antonprokopovich/go-threads
+        additional_links:
+          - title: antonprokopovich/go-threads
+            icon: fab fa-github
+            url: github.com/antonprokopovich/go-threads
+        description: |
+          Golang-клиент к API Threads.net написанный в первые дни после релиза сервиса, когда не была доступна публичная документация API.
+
+  - title: Вклад в open source
+    layout: text
+    content: |
+      Я сделал _небольшой_ вклад в некоторые проекты open-source сообщества:
+      - Нашёл [ошибку](https://github.com/metal-stack/go-ipam/issues/112) в Golang-библиотеке управления IP-адресами и [добавил юнит-тест](https://github.com/metal-stack/go-ipam/pull/113/files) для её воспроизведения.
+      - Нашёл [ошибку](https://github.com/jackc/pgx/issues/1470) с приведением типов в Golang-библиотеке драйвера Postgres pgx/v5, которая была [воспроизведена и исправлена](https://github.com/jackc/pgx/commit/e48e7a7189354fd7d2990b8abc2c40dfe5ee4c9f) автором библиотеки.
+
+  - title: Прочее
+    layout: text
+    content: |
+      Помимо разработки ПО и информатики, меня также интересуют:
+      - Машинное обучение и ИИ.
+      - Нейробиология. Мне нравится изучать как функционирует человеческий мозг на фундаментальном уровне.
+      - Чтение. В свободное время я читаю как техническую, так и художественную литературу.
+      - Здоровье и фитнес. Я играл в баскетбол в школе и был игроком юношеской сборной России до 16 лет. Мне нравятся силовые тренировки и всё, что связано со здоровым образом жизни.
 
 # Footer
 #footer_show_references: false
