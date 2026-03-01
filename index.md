@@ -8,15 +8,15 @@
 layout: default
 ---
 
-<!-- Language switcher that will be positioned via CSS -->
-<div id="language-switcher" style="position: fixed; top: 20px; right: 20px; z-index: 1000;">
-  <button id="lang-switch-btn" class="lang-switch-btn" onclick="toggleLanguageMenu()" style="background-color: rgba(255, 255, 255, 0.2); border: 1px solid rgba(255, 255, 255, 0.3); color: white; padding: 8px 12px; border-radius: 4px; cursor: pointer; font-size: 14px; display: flex; align-items: center; gap: 5px;">
+<!-- Language switcher that will be styled via CSS -->
+<div id="language-switcher">
+  <button id="lang-switch-btn" class="lang-switch-btn" onclick="toggleLanguageMenu()">
     <span id="current-lang">EN</span>
-    <span class="arrow" style="font-size: 10px;">▼</span>
+    <span class="arrow">▼</span>
   </button>
-  <div id="lang-menu" class="lang-menu" style="position: absolute; top: 100%; right: 0; background-color: white; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); min-width: 120px; margin-top: 5px; z-index: 1001; display: none;">
-    <a href="#" class="lang-option active" data-lang="en" onclick="switchLanguage('en')" style="display: block; padding: 10px 15px; text-decoration: none; color: #333; cursor: pointer; border-bottom: 1px solid #eee;">English</a>
-    <a href="#" class="lang-option" data-lang="ru" onclick="switchLanguage('ru')" style="display: block; padding: 10px 15px; text-decoration: none; color: #333; cursor: pointer;">Русский</a>
+  <div id="lang-menu" class="lang-menu">
+    <a href="#" class="lang-option active" data-lang="en" onclick="switchLanguage('en')">English</a>
+    <a href="#" class="lang-option" data-lang="ru" onclick="switchLanguage('ru')">Русский</a>
   </div>
 </div>
 
@@ -63,12 +63,8 @@ layout: default
     // Update active class on menu items
     document.querySelectorAll('.lang-option').forEach(option => {
       option.classList.remove('active');
-      option.style.background = '';
-      option.style.color = '#333';
       if (option.dataset.lang === currentLang) {
         option.classList.add('active');
-        option.style.background = '#007acc';
-        option.style.color = 'white';
       }
     });
     
