@@ -116,7 +116,7 @@ content:
           
           <ins>Drilling Rig Robot Controll Software</ins>  (2019) 
           
-          I was responsible for the development of the software that controlled the [drilling rig robots](https://www.youtube.com/watch?v=B3JCit_YW5U&ab_channel=ZyfraCompany) and the infrastructure that supported them. The controll software development involved a lot mathematics (geometry, probability, linear argebra) and control theory (PID regulators, Path-Finding Algorithms, Kalman Filters).
+          I was responsible for the development of the software that controlled the [drilling rig robots](https://www.youtube.com/watch?v=B3JCit_YW5U&ab_channel=ZyfraCompany) and the infrastructure that supported them. The controll software development involved a lot mathematics (geometry, probability, linear algebra) and control theory (PID regulators, Path-Finding Algorithms, Kalman Filters).
           
           <ins>Remote Controll Station Desktop App</ins>  (2020) 
           
@@ -130,7 +130,7 @@ content:
         
           I worked on a 3D-simulator of the drilling rig which we later used for testing the main system.
         
-          The automonous self-driving drilling rig was deployed on mines in Russia and Peru.
+          The autonomous self-driving drilling rig was deployed on mines in Russia and Peru.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
